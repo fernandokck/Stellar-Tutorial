@@ -1,8 +1,8 @@
-# 🌌 Stellar Blockchain Governance Roles Guide (SCF)
+# 🌌 Seja Stellar — Guia de Roles & Governança da Stellar Blockchain (SCF)
 
 > Guia interativo, didático e moderno para instruir a comunidade sobre como conquistar e evoluir nas roles de governança do ecossistema da Stellar Blockchain (**Verified Member**, **Pathfinder**, **Navigator** e **Pilot**).
 
-![Stellar Verified Badge](./assets/hero-badge.png)
+![Seja Stellar Verified Badge](./assets/hero-badge.png)
 
 ---
 
