@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Guia de Roles da Stellar Blockchain | Verified, Pathfinder, Navigator & Pilot</title>
+  <meta name="description" content="Guia didático, clean e interativo para conquistar e evoluir nas roles de governança do ecossistema Stellar Community Fund (SCF): Verified Member, Pathfinder, Navigator e Pilot.">
+  <meta name="keywords" content="Stellar, Stellar Blockchain, SCF, Stellar Community Fund, Soroban, Neural Quorum Governance, NQG, Freighter, Stellar Quest, Governança Web3">
+  <meta name="author" content="Stellar Community Brasil / Global">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Guia de Roles do Ecossistema Stellar Blockchain">
+  <meta property="og:description" content="Aprenda passo a passo como se tornar Verified Member, Pathfinder, Navigator e Pilot na Stellar.">
+  <meta property="og:image" content="./assets/hero.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300e5ff'><circle cx='12' cy='12' r='10'/></svg>">
+</head>
+<body>
+
+  <!-- Cosmic Animated Background Elements -->
+  <div class="cosmic-bg"></div>
+  <div class="cosmic-grid"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <a href="#" class="nav-brand" aria-label="Início">
+        <div class="stellar-logo-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">STELLAR ROLES</span>
+          <span class="brand-sub">SCF Governance Guide</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#tiers" class="nav-link">As 4 Roles</a></li>
+          <li><a href="#passo-a-passo" class="nav-link">Passo a Passo</a></li>
+          <li><a href="#calculadora" class="nav-link">Calculadora</a></li>
+          <li><a href="#nqg" class="nav-link">Governança NQG</a></li>
+          <li><a href="#badges" class="nav-link">Quests & Badges</a></li>
+          <li><a href="#faq" class="nav-link">Dúvidas (FAQ)</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Alternar Tema Claro/Escuro">☀️</button>
+        <a href="#calculadora" class="btn-primary-sm">
+          <span>Verificar Meu Nível</span>
+          <span>⚡</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="pulse-dot"></span>
+              <span>Ecossistema Stellar Community Fund (SCF)</span>
+            </div>
+            
+            <h1 class="hero-title">
+              Como se Tornar um <span class="gradient-text-stellar">Verified Member</span> e Evoluir na Stellar
+            </h1>
+            
+            <p class="hero-desc">
+              Um guia interativo, clean e didático que desmistifica toda a jornada de governança da Stellar Blockchain. Descubra os requisitos exatos para alcançar <strong>Verified</strong>, <strong>Pathfinder</strong>, <strong>Navigator</strong> e <strong>Pilot</strong>.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#passo-a-passo" class="btn-hero-primary">
+                <span>Iniciar Trilha de 8 Passos</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#calculadora" class="btn-hero-secondary">
+                <span>Calculadora de Elegibilidade</span>
+                <span>📊</span>
+              </a>
+            </div>
+
+            <div class="hero-stats-row">
+              <div class="stat-box">
+                <span class="stat-value">4 Tiers</span>
+                <span class="stat-label">Níveis Oficiais</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">8 Passos</span>
+                <span class="stat-label">Roteiro Guiado</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">NQG</span>
+                <span class="stat-label">Governança Neural</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value">100% On-chain</span>
+                <span class="stat-label">Reputação Real</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-visual-badge-showcase">
+              <!-- Halo de Brilho Cósmico -->
+              <div class="medallion-glow-halo"></div>
+
+              <!-- Partículas de Brilho Cintilante -->
+              <div class="sparkle-particle sparkle-1">
+                <span class="sparkle-star">✦</span>
+              </div>
+              <div class="sparkle-particle sparkle-2">
+                <span class="sparkle-star">★</span>
+              </div>
+              <div class="sparkle-particle sparkle-3">
+                <span class="sparkle-star">✦</span>
+              </div>
+              <div class="sparkle-particle sparkle-4">
+                <span class="sparkle-star">★</span>
+              </div>
+
+              <!-- Medalhão 3D Flutuante -->
+              <div class="floating-medallion-wrapper">
+                <img src="./assets/hero-badge.png" alt="Stellar Blockchain Verified Member Medallion 3D" class="hero-badge-img" loading="eager">
+              </div>
+
+              <!-- Sombra Flutuante Dinâmica -->
+              <div class="medallion-ground-shadow"></div>
+
+              <!-- Card Flutuante de Informação -->
+              <div class="hero-floating-badge">
+                <div class="floating-icon">✓</div>
+                <div class="floating-text">
+                  <h4>Verified Member</h4>
+                  <p>Identidade Oficial no SCF</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: AS 4 ROLES (TIERS OVERVIEW) -->
+    <section id="tiers" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Hierarquia do Ecossistema</div>
+          <h2 class="section-title">Os 4 Níveis de Reconhecimento na Stellar</h2>
+          <p class="section-desc">
+            Cada nível desbloqueia mais direitos de participação, poder de voto e influência na alocação de recursos do Stellar Community Fund.
+          </p>
+        </div>
+
+        <div class="tiers-grid">
+          <!-- Tier 1: Verified -->
+          <div class="tier-card tier-verified">
+            <div class="tier-header">
+              <span class="tier-rank">Nível 01</span>
+              <div class="tier-icon-circle">🥉</div>
+            </div>
+            <h3 class="tier-name">Verified</h3>
+            <p class="tier-subtitle">Porta de entrada no ecossistema e identidade Web3 validada.</p>
+            
+            <ul class="tier-highlights">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Membro ativo no Stellar Developers Discord</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Conta social verificada via <strong>Linked Roles</strong></span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Stellar Wallet autenticada no SCF Dashboard</span>
+              </li>
+            </ul>
+
+            <div class="tier-voting-power">
+              <div class="power-label">Poder de Decisão</div>
+              <div class="power-val">Acesso Básico à Comunidade</div>
+            </div>
+
+            <a href="#passo-3" class="btn-tier-action">Ver Passo a Passo</a>
+          </div>
+
+          <!-- Tier 2: Pathfinder -->
+          <div class="tier-card tier-pathfinder">
+            <div class="tier-header">
+              <span class="tier-rank">Nível 02</span>
+              <div class="tier-icon-circle">🥈</div>
+            </div>
+            <h3 class="tier-name">Pathfinder</h3>
+            <p class="tier-subtitle">Expertise técnica ou comunitária comprovada com badges e roles.</p>
+            
+            <ul class="tier-highlights">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Role especial Discord (@SCF Project, @Ambassador, @SDF)</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span><strong>OU</strong> Badges em Quests públicas (Soroban, RPCiege, SQ)</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Habilitado a delegar voto no Community Vote</span>
+              </li>
+            </ul>
+
+            <div class="tier-voting-power">
+              <div class="power-label">Poder de Decisão</div>
+              <div class="power-val">Votação Delegada</div>
+            </div>
+
+            <a href="#passo-4" class="btn-tier-action">Ver Requisitos de Badges</a>
+          </div>
+
+          <!-- Tier 3: Navigator -->
+          <div class="tier-card tier-navigator">
+            <div class="tier-header">
+              <span class="tier-rank">Nível 03</span>
+              <div class="tier-icon-circle">🥇</div>
+            </div>
+            <h3 class="tier-name">Navigator</h3>
+            <p class="tier-subtitle">Líder ativo com alto poder relativo e histórico de votação.</p>
+            
+            <ul class="tier-highlights">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Estar no <strong>Top ~33,3%</strong> de poder de voto NQG</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Mínimo <strong>5 aprovações</strong> (Navigators/Pilots)</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span><strong>0 Downvotes</strong> na auto-nomeação</span>
+              </li>
+            </ul>
+
+            <div class="tier-voting-power">
+              <div class="power-label">Poder de Decisão</div>
+              <div class="power-val">Voto Direto nos Projetos</div>
+            </div>
+
+            <a href="#passo-5" class="btn-tier-action">Entender NQG</a>
+          </div>
+
+          <!-- Tier 4: Pilot -->
+          <div class="tier-card tier-pilot">
+            <div class="tier-header">
+              <span class="tier-rank">Nível 04</span>
+              <div class="tier-icon-circle">🚀</div>
+            </div>
+            <h3 class="tier-name">Pilot</h3>
+            <p class="tier-subtitle">Nível máximo de governança e influência direta na rede Stellar.</p>
+            
+            <ul class="tier-highlights">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Estar no <strong>Top ~16,7%</strong> de poder relativo NQG</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Mínimo <strong>5 aprovações exclusivas</strong> de Pilots</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span><strong>0 Downvotes</strong> na janela oficial de revisão</span>
+              </li>
+            </ul>
+
+            <div class="tier-voting-power">
+              <div class="power-label">Poder de Decisão</div>
+              <div class="power-val">Voto Direto de Alto Impacto</div>
+            </div>
+
+            <a href="#passo-6" class="btn-tier-action">Ver Regras de Aprovação</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: PASSO A PASSO (1 A 8) -->
+    <section id="passo-a-passo" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Roteiro Completo</div>
+          <h2 class="section-title">O Passo a Passo Oficial (1 ao 8)</h2>
+          <p class="section-desc">
+            Siga cada etapa detalhada abaixo exatamente como especificado nas diretrizes do Stellar Community Fund.
+          </p>
+        </div>
+
+        <div class="steps-container">
+          
+          <!-- STEP 1 -->
+          <div class="step-card" id="passo-1">
+            <div class="step-header-wrapper">
+              <div class="step-number-badge">01</div>
+              <div class="step-title-group">
+                <span class="step-target-role" style="background: var(--role-verified-bg); color: var(--role-verified);">Todos os Membros</span>
+                <h3 class="step-title">Entre no Discord Oficial da Stellar</h3>
+              </div>
+            </div>
+            
+            <div class="step-content">
+              <p class="step-description">
+                Acesse o servidor oficial <strong>Stellar Developers Discord</strong>. É lá dentro que toda a mágica da verificação de identidade, concessão de Linked Roles, comunicação com o comitê e solicitação de subida de nível acontece.
+              </p>
+
+              <div class="step-callout">
+                <div class="step-callout-icon">💡</div>
+                <div class="step-callout-text">
+                  <strong>Por que o Discord é indispensável?</strong> As roles de governança dependem da ponte entre seu perfil social verificado no Discord e a sua carteira on-chain cadastrada no SCF Dashboard.
+                </div>
+              </div>
+
+              <div class="step-action-bar">
+                <a href="https://discord.com/invite/stellardev" target="_blank" rel="noopener noreferrer" class="btn-step-action">
+                  <span>Acessar Stellar Developers Discord</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </a>
+                <button class="copy-link-btn" data-copy="https://discord.com/invite/stellardev">
+                  <span>Copiar Link</span>
+                  <span>📋</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 2 -->
+          <div class="step-card" id="passo-2">
+            <div class="step-header-wrapper">
+              <div class="step-number-badge">02</div>
+              <div class="step-title-group">
+                <span class="step-target-role" style="background: var(--role-verified-bg); color: var(--role-verified);">Painel de Controle</span>
+                <h3 class="step-title">Vá até o SCF Dashboard (/tiers)</h3>
+              </div>
+            </div>
+            
+            <div class="step-content">
+              <p class="step-description">
+                Acesse a página oficial de Tiers: <code>communityfund.stellar.org/tiers</code>. Este é o formulário oficial onde você atualiza seus dados, consulta seu progresso em tempo real e reivindica sua transição de nível (Verified, Pathfinder, Navigator ou Pilot).
+              </p>
+
+              <div class="step-callout success">
+                <div class="step-callout-icon">🎯</div>
+                <div class="step-callout-text">
+                  <strong>Ponto de Partida Obrigatório:</strong> Todo membro que deseja subir de nível precisa passar por esta página para sincronizar seus dados do Discord com sua chave pública da Stellar.
+                </div>
+              </div>
+
+              <div class="step-action-bar">
+                <a href="https://communityfund.stellar.org/tiers" target="_blank" rel="noopener noreferrer" class="btn-step-action">
+                  <span>Abrir communityfund.stellar.org/tiers</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </a>
+                <button class="copy-link-btn" data-copy="https://communityfund.stellar.org/tiers">
+                  <span>Copiar Link</span>
+                  <span>📋</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 3 -->
+          <div class="step-card" id="passo-3">
+            <div class="step-header-wrapper">
+              <div class="step-number-badge" style="border-color: var(--role-verified); color: var(--role-verified);">03</div>
+              <div class="step-title-group">
+                <span class="step-target-role" style="background: var(--role-verified-bg); color: var(--role-verified);">Tier 1 • Verified Member</span>
+                <h3 class="step-title">Verified: Verifique sua Conta e Conecte sua Wallet</h3>
+              </div>
+            </div>
+            
+            <div class="step-content">
+              <p class="step-description">
+                Para conquistar a role inicial <strong>Verified</strong>, execute o checklist fundamental de 3 itens:
+              </p>
+
+              <div class="step-details-grid">
+                <div class="detail-box">
+                  <h4>💬 1. Discord Developers</h4>
+                  <ul>
+                    <li>Estar presente no servidor da Stellar</li>
+                    <li>Conta Discord com e-mail confirmado</li>
+                  </ul>
+                </div>
+
+                <div class="detail-box">
+                  <h4>🔗 2. Linked Roles</h4>
+                  <ul>
+                    <li>No Discord, clique no nome do servidor</li>
+                    <li>Vá em <em>Linked Roles</em> (Cargos Vinculados)</li>
+                    <li>Conecte ao menos 1 conta social (GitHub, Twitter/X, etc.)</li>
+                  </ul>
+                </div>
+
+                <div class="detail-box">
+                  <h4>👛 3. Registro no SCF Dashboard</h4>
+                  <ul>
+                    <li>Navegue até a seção <strong>Verified Tier</strong></li>
+                    <li>Autentique-se com sua wallet Stellar (ex: Freighter)</li>
+                    <li>Assine a mensagem de autenticação</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="step-callout">
+                <div class="step-callout-icon">🔒</div>
+                <div class="step-callout-text">
+                  <strong>Dica de Segurança:</strong> Nunca forneça sua chave privada ou frase mnemônica. A conexão no SCF Dashboard realiza apenas uma assinatura criptográfica via extensão da carteira.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 4 -->
+          <div class="step-card" id="passo-4">
+            <div class="step-header-wrapper">
+              <div class="step-number-badge" style="border-color: var(--role-pathfinder); color: var(--role-pathfinder);">04</div>
+              <div class="step-title-group">
+                <span class="step-target-role" style="background: var(--role-pathfinder-bg); color: var(--role-pathfinder);">Tier 2 • Pathfinder</span>
+                <h3 class="step-title">Pathfinder: Demonstre sua Expertise Técnica</h3>
+              </div>
+            </div>
+            
+            <div class="step-content">
+              <p class="step-description">
+                Para se tornar um <strong>Pathfinder</strong>, você deve comprovar seu valor e conhecimento prático no ecossistema Stellar cumprindo <strong>pelo menos UMA das duas opções</strong> abaixo:
+              </p>
+
+              <div class="step-details-grid">
+                <!-- Opção A -->
+                <div class="detail-box" style="border-top: 3px solid var(--stellar-purple);">
+                  <h4>🏷️ Opção A: Roles no Discord</h4>
+                  <p style="font-size: 0.82rem; margin-bottom: 0.5rem; color: var(--text-muted);">Ter pelo menos um destes cargos no Stellar Discord:</p>
+                  <ul>
+                    <li><code>@SCF Project</code> (Criador/Membro de projeto SCF)</li>
+                    <li><code>@Ambassador President</code> (Liderança do programa)</li>
+                    <li><code>@SDF Discord Role</code> (Cargo oficial SDF)</li>
+                  </ul>
+                </div>
+
+                <!-- Opção B -->
+                <div class="detail-box" style="border-top: 3px solid var(--stellar-cyan);">
+                  <h4>🎖️ Opção B: Badges On-chain na Wallet</h4>
+                  <p style="font-size: 0.82rem; margin-bottom: 0.5rem; color: var(--text-muted);">Possuir na sua wallet pública um dos seguintes requisitos mínimos:</p>
+                  <ul>
+                    <li><strong>Stellar Quest L1:</strong> mín. 4 badges</li>
+                    <li><strong>Stellar Quest L2:</strong> mín. 3 badges</li>
+                    <li><strong>Stellar Quest L3:</strong> mín. 2 badges</li>
+                    <li><strong>Stellar Quest Live (1-5):</strong> mín. 2 badges</li>
+                    <li><strong>Stellar Quest Side quests:</strong> mín. 2 badges</li>
+                    <li><strong>FCA00C:</strong> mín. 1 badge</li>
+                    <li><strong>Soroban Quest:</strong> mín. 2 badges</li>
+                    <li><strong>RPCiege:</strong> mín. 15 badges</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="step-callout success">
+                <div class="step-callout-icon">💡</div>
+                <div class="step-callout-text">
+                  <strong>Regra de Ouro:</strong> Não é necessário cumprir todas as opções acima! Ter <em>qualquer uma</em> das linhas de badges (ex: 2 badges de Soroban Quest) já qualifica você para o tier Pathfinder.
+                </div>
+              </div>
+
+              <!-- Tutoriais em Vídeo para Quests & Badges -->
+              <div class="video-tutorials-wrapper">
+                <div class="video-tutorials-header">
+                  <div class="video-tutorials-title">
+                    <span>🎬</span>
+                    <span>Tutoriais em Vídeo: Como Completar as Quests da Stellar</span>
+                  </div>
+                  <span style="font-size: 0.78rem; font-family: var(--font-mono); color: var(--stellar-cyan); background: var(--bg-tertiary); padding: 0.25rem 0.65rem; border-radius: var(--radius-full); border: 1px solid var(--border-subtle);">Passo a Passo</span>
+                </div>
+                <p class="video-tutorials-desc">
+                  Assista aos tutoriais práticos organizados em ordem de cada quest para conquistar seus badges on-chain e se qualificar para Pathfinder:
+                </p>
+
+                <div class="video-grid">
+                  <!-- Video 1 -->
+                  <a href="https://www.youtube.com/watch?v=Sou5wUsfsZw&list=PLj3KReXFn3x6qcp_lTOqAVquR_J8ZNQJt" target="_blank" rel="noopener noreferrer" class="video-card">
+                    <div class="video-thumb-container">
+                      <img src="https://img.youtube.com/vi/Sou5wUsfsZw/mqdefault.jpg" alt="Stellar Quest Level 1 - Create Account" class="video-thumb" loading="lazy">
+                      <div class="video-play-overlay">
+                        <div class="video-play-btn-circle">
+                          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="video-info-box">
+                      <span class="video-order-tag">Quest 01 • Level 1</span>
+                      <h5 class="video-item-title">Create Account</h5>
+                      <span class="video-item-sub">Criando sua conta na testnet da Stellar</span>
+                    </div>
+                  </a>
+
+                  <!-- Video 2 -->
+                  <a href="https://www.youtube.com/watch?v=Isn5CkEWFs8&list=PLj3KReXFn3x6qcp_lTOqAVquR_J8ZNQJt&index=2" target="_blank" rel="noopener noreferrer" class="video-card">
+                    <div class="video-thumb-container">
+                      <img src="https://img.youtube.com/vi/Isn5CkEWFs8/mqdefault.jpg" alt="Stellar Quest Level 1 - Payment" class="video-thumb" loading="lazy">
+                      <div class="video-play-overlay">
+                        <div class="video-play-btn-circle">
+                          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="video-info-box">
+                      <span class="video-order-tag">Quest 02 • Level 1</span>
+                      <h5 class="video-item-title">Payment</h5>
+                      <span class="video-item-sub">Executando pagamentos nativos em XLM</span>
+                    </div>
+                  </a>
+
+                  <!-- Video 3 -->
+                  <a href="https://www.youtube.com/watch?v=Ln-_2pkkj3k&list=PLj3KReXFn3x6qcp_lTOqAVquR_J8ZNQJt&index=3" target="_blank" rel="noopener noreferrer" class="video-card">
+                    <div class="video-thumb-container">
+                      <img src="https://img.youtube.com/vi/Ln-_2pkkj3k/mqdefault.jpg" alt="Stellar Quest Level 1 - Change Trust" class="video-thumb" loading="lazy">
+                      <div class="video-play-overlay">
+                        <div class="video-play-btn-circle">
+                          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="video-info-box">
+                      <span class="video-order-tag">Quest 03 • Level 1</span>
+                      <h5 class="video-item-title">Change Trust (Trustlines)</h5>
+                      <span class="video-item-sub">Configurando linhas de confiança para tokens</span>
+                    </div>
+                  </a>
+
+                  <!-- Video 4 -->
+                  <a href="https://www.youtube.com/watch?v=4d558Q0MDso&list=PLj3KReXFn3x6qcp_lTOqAVquR_J8ZNQJt&index=4" target="_blank" rel="noopener noreferrer" class="video-card">
+                    <div class="video-thumb-container">
+                      <img src="https://img.youtube.com/vi/4d558Q0MDso/mqdefault.jpg" alt="Stellar Quest Level 1 - Manage Offers" class="video-thumb" loading="lazy">
+                      <div class="video-play-overlay">
+                        <div class="video-play-btn-circle">
+                          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="video-info-box">
+                      <span class="video-order-tag">Quest 04 • Level 1</span>
+                      <h5 class="video-item-title">Manage Offers (DEX)</h5>
+                      <span class="video-item-sub">Criando ofertas no livro de ordens integrado</span>
+                    </div>
+                  </a>
+
+                  <!-- Video 5 -->
+                  <a href="https://www.youtube.com/watch?v=ZNuNrYjpx9s&list=PLj3KReXFn3x6qcp_lTOqAVquR_J8ZNQJt&index=5" target="_blank" rel="noopener noreferrer" class="video-card">
+                    <div class="video-thumb-container">
+                      <img src="https://img.youtube.com/vi/ZNuNrYjpx9s/mqdefault.jpg" alt="Stellar Quest Level 1 - Path Payments" class="video-thumb" loading="lazy">
+                      <div class="video-play-overlay">
+                        <div class="video-play-btn-circle">
+                          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="video-info-box">
+                      <span class="video-order-tag">Quest 05 • Level 1</span>
+                      <h5 class="video-item-title">Path Payments</h5>
+                      <span class="video-item-sub">Conversão e pagamentos multi-ativos automáticos</span>
+                    </div>
+                  </a>
+
+                  <!-- Video 6 -->
+                  <a href="https://www.youtube.com/watch?v=XkzYMQUtyeo&list=PLj3KReXFn3x6qcp_lTOqAVquR_J8ZNQJt&index=6" target="_blank" rel="noopener noreferrer" class="video-card">
+                    <div class="video-thumb-container">
+                      <img src="https://img.youtube.com/vi/XkzYMQUtyeo/mqdefault.jpg" alt="Stellar Quest Level 2 - Account Merge" class="video-thumb" loading="lazy">
+                      <div class="video-play-overlay">
+                        <div class="video-play-btn-circle">
+                          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="video-info-box">
+                      <span class="video-order-tag">Quest 06 • Level 2</span>
+                      <h5 class="video-item-title">Account Merge</h5>
+                      <span class="video-item-sub">Fusão e encerramento seguro de contas</span>
+                    </div>
+                  </a>
+
+                  <!-- Video 7 -->
+                  <a href="https://youtu.be/vRq8_cSFdlQ?si=Gw_AbgL49WsbmaOp" target="_blank" rel="noopener noreferrer" class="video-card">
+                    <div class="video-thumb-container">
+                      <img src="https://img.youtube.com/vi/vRq8_cSFdlQ/mqdefault.jpg" alt="Stellar Quest Level 2 - Manage Data" class="video-thumb" loading="lazy">
+                      <div class="video-play-overlay">
+                        <div class="video-play-btn-circle">
+                          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="video-info-box">
+                      <span class="video-order-tag">Quest 07 • Level 2</span>
+                      <h5 class="video-item-title">Manage Data</h5>
+                      <span class="video-item-sub">Armazenando pares chave-valor na blockchain</span>
+                    </div>
+                  </a>
+
+                  <!-- Video 8 -->
+                  <a href="https://youtu.be/vRq8_cSFdlQ?si=0QZZ_DK2-3I3is_f" target="_blank" rel="noopener noreferrer" class="video-card">
+                    <div class="video-thumb-container">
+                      <img src="https://img.youtube.com/vi/2bEe8DzKUUw/mqdefault.jpg" alt="Stellar Quest Level 2 - Set Options Home Domain" class="video-thumb" loading="lazy" onerror="this.src='https://img.youtube.com/vi/vRq8_cSFdlQ/mqdefault.jpg'">
+                      <div class="video-play-overlay">
+                        <div class="video-play-btn-circle">
+                          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="video-info-box">
+                      <span class="video-order-tag">Quest 08 • Level 2</span>
+                      <h5 class="video-item-title">Set Options (Home Domain)</h5>
+                      <span class="video-item-sub">Vinculação de domínio e metadados na Stellar</span>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Banner Playlist Completa -->
+                <div class="playlist-banner-box">
+                  <div class="playlist-banner-content">
+                    <div class="playlist-icon">▶</div>
+                    <div class="playlist-text">
+                      <h5>Quer assistir a todos os episódios e próximas quests?</h5>
+                      <p>Acesse a playlist completa no YouTube com todos os tutoriais passo a passo.</p>
+                    </div>
+                  </div>
+                  <a href="https://www.youtube.com/playlist?list=PLj3KReXFn3x6qcp_lTOqAVquR_J8ZNQJt" target="_blank" rel="noopener noreferrer" class="btn-playlist-cta">
+                    <span>Acessar Playlist Completa</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 5 -->
+          <div class="step-card" id="passo-5">
+            <div class="step-header-wrapper">
+              <div class="step-number-badge" style="border-color: var(--role-navigator); color: var(--role-navigator);">05</div>
+              <div class="step-title-group">
+                <span class="step-target-role" style="background: var(--role-navigator-bg); color: var(--role-navigator);">Métricas de Governança</span>
+                <h3 class="step-title">Alcance a Pontuação Necessária para Navigator ou Pilot</h3>
+              </div>
+            </div>
+            
+            <div class="step-content">
+              <p class="step-description">
+                Depois de participar de uma rodada de Community Vote, acompanhe no SCF Dashboard a sua pontuação relativa de governança, baseada no inovador sistema <strong>Neural Quorum Governance (NQG)</strong>.
+              </p>
+
+              <div class="step-details-grid">
+                <div class="detail-box">
+                  <h4>🧠 Fatores Calculados pelo NQG</h4>
+                  <ul>
+                    <li><strong>Roles adquiridos</strong> no Discord da Stellar;</li>
+                    <li><strong>Histórico de participação</strong> ativa nas rodadas de votação;</li>
+                    <li><strong>Listas de confiança (Trustlists):</strong> inclusão em listas de confiança de outros membros da comunidade.</li>
+                  </ul>
+                </div>
+
+                <div class="detail-box">
+                  <h4>📊 Metas de Elegibilidade Relativa</h4>
+                  <ul>
+                    <li><strong>Navigator:</strong> Estar aproximadamente entre os <strong style="color: var(--role-navigator);">Top 33,3%</strong> com maior poder relativo de voto.</li>
+                    <li><strong>Pilot:</strong> Estar aproximadamente entre os <strong style="color: var(--role-pilot);">Top 16,7%</strong> com maior poder relativo de voto.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="step-callout">
+                <div class="step-callout-icon">🔍</div>
+                <div class="step-callout-text">
+                  <strong>Onde consultar seu status?</strong> Acesse a aba <strong>Voting History</strong> no SCF Dashboard para visualizar seu percentil e elegibilidade em tempo real.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 6 -->
+          <div class="step-card" id="passo-6">
+            <div class="step-header-wrapper">
+              <div class="step-number-badge" style="border-color: var(--role-pilot); color: var(--role-pilot);">06</div>
+              <div class="step-title-group">
+                <span class="step-target-role" style="background: var(--role-pilot-bg); color: var(--role-pilot);">Auto-Nomeação & Pares</span>
+                <h3 class="step-title">Faça sua Nomeação e Obtenha as Aprovações</h3>
+              </div>
+            </div>
+            
+            <div class="step-content">
+              <p class="step-description">
+                Quando o SCF Dashboard indicar que você atingiu o requisito de poder relativo de voto para Navigator ou Pilot, você deve fazer sua <strong>própria nomeação (Self-Nomination)</strong> seguindo as instruções do canal de verificação no Stellar Developer Discord.
+              </p>
+
+              <div class="rules-comparison-grid">
+                <div class="rule-box navigator-rule">
+                  <h4>🥇 Aprovação de Navigator</h4>
+                  <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.8rem;">
+                    Requer a confiança de membros já estabelecidos no ecossistema:
+                  </p>
+                  <div class="approval-metric-row">
+                    <div class="approval-item">
+                      <div class="number success">5+</div>
+                      <div class="label">Aprovações de Navigators ou Pilots</div>
+                    </div>
+                    <div class="approval-item">
+                      <div class="number danger">0</div>
+                      <div class="label">Downvotes Permitidos</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="rule-box pilot-rule">
+                  <h4>🚀 Aprovação de Pilot</h4>
+                  <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.8rem;">
+                    O mais rigoroso nível de revisão por pares da Stellar:
+                  </p>
+                  <div class="approval-metric-row">
+                    <div class="approval-item">
+                      <div class="number success">5+</div>
+                      <div class="label">Aprovações Exclusivas de Pilots</div>
+                    </div>
+                    <div class="approval-item">
+                      <div class="number danger">0</div>
+                      <div class="label">Downvotes Permitidos</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="step-callout warning">
+                <div class="step-callout-icon">⚠️</div>
+                <div class="step-callout-text">
+                  <strong>Aviso Crítico:</strong> As nomeações podem ser submetidas a qualquer momento, mas sua análise formal ocorre exclusivamente durante as janelas oficiais de aprovação que antecedem as rodadas de votação.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 7 -->
+          <div class="step-card" id="passo-7">
+            <div class="step-header-wrapper">
+              <div class="step-number-badge">07</div>
+              <div class="step-title-group">
+                <span class="step-target-role" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b;">Calendário Trimestral</span>
+                <h3 class="step-title">Fique de Olho nas Janelas de Aprovação</h3>
+              </div>
+            </div>
+            
+            <div class="step-content">
+              <p class="step-description">
+                As nomeações de Navigator e Pilot são revisadas em janelas temporais específicas, <strong>duas vezes por trimestre</strong>: uma antes da rodada de Community Vote abrir (no meio do trimestre).
+              </p>
+
+              <div class="quarterly-timeline">
+                <div class="timeline-quarter-card">
+                  <div class="quarter-title">Janela 1 (Mês 1)</div>
+                  <div class="quarter-event">Submissão & Revisão de Nomeações</div>
+                  <div class="quarter-event" style="border-left-color: var(--stellar-cyan);">Abertura do Community Vote 1</div>
+                </div>
+
+                <div class="timeline-quarter-card">
+                  <div class="quarter-title">Meio do Trimestre</div>
+                  <div class="quarter-event">Apuração e Atualização NQG</div>
+                  <div class="quarter-event" style="border-left-color: var(--stellar-purple);">Feedback da Comunidade</div>
+                </div>
+
+                <div class="timeline-quarter-card">
+                  <div class="quarter-title">Janela 2 (Mês 3)</div>
+                  <div class="quarter-event">Segunda Janela de Aprovação</div>
+                  <div class="quarter-event" style="border-left-color: var(--stellar-cyan);">Abertura do Community Vote 2</div>
+                </div>
+
+                <div class="timeline-quarter-card">
+                  <div class="quarter-title">Encerramento Ciclo</div>
+                  <div class="quarter-event">Distribuição de Recursos SCF</div>
+                  <div class="quarter-event" style="border-left-color: #10b981;">Consolidação de Reputação</div>
+                </div>
+              </div>
+
+              <div class="step-callout success" style="margin-top: 1.25rem;">
+                <div class="step-callout-icon">🔄</div>
+                <div class="step-callout-text">
+                  <strong>Não desanime!</strong> Se você não for aprovado na janela atual, continue participando, construindo reputação e tente novamente na rodada seguinte.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 8 -->
+          <div class="step-card" id="passo-8">
+            <div class="step-header-wrapper">
+              <div class="step-number-badge" style="border-color: #10b981; color: #10b981;">08</div>
+              <div class="step-title-group">
+                <span class="step-target-role" style="background: rgba(16, 185, 129, 0.15); color: #10b981;">Exercício da Governança</span>
+                <h3 class="step-title">Vote (ou Delegue) Quando a Rodada Abrir</h3>
+              </div>
+            </div>
+            
+            <div class="step-content">
+              <p class="step-description">
+                Quando a rodada de <strong>Community Vote</strong> abrir oficialmente em <code>communityfund.stellar.org</code>, cada participante exerce sua governança conforme seu nível atual:
+              </p>
+
+              <div class="step-details-grid">
+                <div class="detail-box" style="border-top: 3px solid var(--role-pathfinder);">
+                  <h4>🥈 Pathfinders: Votação Delegada</h4>
+                  <p style="font-size: 0.85rem; color: var(--text-secondary);">
+                    Pathfinders escolhem um <strong>delegado de confiança</strong> (um Navigator ou Pilot) para exercer o voto representativo por eles.
+                  </p>
+                </div>
+
+                <div class="detail-box" style="border-top: 3px solid var(--role-navigator);">
+                  <h4>🥇 Navigators & 🚀 Pilots: Voto Direto</h4>
+                  <p style="font-size: 0.85rem; color: var(--text-secondary);">
+                    Votam diretamente nos projetos submetidos que desejam apoiar, avaliando impacto, inovação e viabilidade técnica.
+                  </p>
+                </div>
+              </div>
+
+              <div class="step-action-bar">
+                <a href="https://communityfund.stellar.org" target="_blank" rel="noopener noreferrer" class="btn-step-action">
+                  <span>Ir para o Portal de Votação do SCF</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: CALCULADORA DE ELEGIBILIDADE -->
+    <section id="calculadora" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Ferramenta Interativa</div>
+          <h2 class="section-title">Calculadora de Nível & Elegibilidade</h2>
+          <p class="section-desc">
+            Selecione seus itens concluídos e descubra em tempo real qual role você já pode reivindicar e quais são seus próximos passos recomendados.
+          </p>
+        </div>
+
+        <div class="calculator-layout">
+          <!-- Form -->
+          <div class="calc-form-card">
+            <form id="eligibilityForm" onsubmit="return false;">
+              
+              <!-- Seção 1: Básico Verified -->
+              <h4 class="calc-section-title"><span>1.</span> Requisitos Verified</h4>
+              <div class="checkbox-group">
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" id="chk_discord">
+                  <div class="checkbox-text">
+                    <h5>Estou no Discord da Stellar</h5>
+                    <p>Membro do servidor discord.com/invite/stellardev</p>
+                  </div>
+                </label>
+
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" id="chk_linked_role">
+                  <div class="checkbox-text">
+                    <h5>Conta Social Verificada (Linked Roles)</h5>
+                    <p>GitHub, Twitter ou outra rede vinculada ao perfil do Discord</p>
+                  </div>
+                </label>
+
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" id="chk_wallet">
+                  <div class="checkbox-text">
+                    <h5>Wallet Autenticada no SCF Dashboard</h5>
+                    <p>Carteira Stellar conectada na seção Verified Tier</p>
+                  </div>
+                </label>
+              </div>
+
+              <!-- Seção 2: Pathfinder Expertise -->
+              <h4 class="calc-section-title"><span>2.</span> Expertise Pathfinder (Selecione ao menos 1)</h4>
+              <div class="checkbox-group">
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" id="chk_pathfinder_role">
+                  <div class="checkbox-text">
+                    <h5>Possuo Role Especial no Discord</h5>
+                    <p>@SCF Project, @Ambassador President ou @SDF Discord Role</p>
+                  </div>
+                </label>
+
+                <!-- Badges Options -->
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" id="badge_soroban">
+                  <div class="checkbox-text">
+                    <h5>Soroban Quest</h5>
+                    <p>Mínimo de 2 badges conquistados na wallet pública</p>
+                  </div>
+                </label>
+
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" id="badge_rpciege">
+                  <div class="checkbox-text">
+                    <h5>RPCiege</h5>
+                    <p>Mínimo de 15 badges conquistados na wallet pública</p>
+                  </div>
+                </label>
+
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" id="badge_sq1">
+                  <div class="checkbox-text">
+                    <h5>Stellar Quest Level 1</h5>
+                    <p>Mínimo de 4 badges</p>
+                  </div>
+                </label>
+
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" id="badge_sq2">
+                  <div class="checkbox-text">
+                    <h5>Stellar Quest Level 2</h5>
+                    <p>Mínimo de 3 badges</p>
+                  </div>
+                </label>
+
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" id="badge_sq3">
+                  <div class="checkbox-text">
+                    <h5>Stellar Quest Level 3</h5>
+                    <p>Mínimo de 2 badges</p>
+                  </div>
+                </label>
+
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" id="badge_sq_live">
+                  <div class="checkbox-text">
+                    <h5>Stellar Quest Live series 1-5</h5>
+                    <p>Mínimo de 2 badges</p>
+                  </div>
+                </label>
+
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" id="badge_sq_side">
+                  <div class="checkbox-text">
+                    <h5>Stellar Quest Side Quests</h5>
+                    <p>Mínimo de 2 badges</p>
+                  </div>
+                </label>
+
+                <label class="custom-checkbox-label">
+                  <input type="checkbox" id="badge_fca00c">
+                  <div class="checkbox-text">
+                    <h5>FCA00C</h5>
+                    <p>Mínimo de 1 badge</p>
+                  </div>
+                </label>
+              </div>
+
+              <!-- Seção 3: Governança NQG & Pares -->
+              <h4 class="calc-section-title"><span>3.</span> Governança NQG & Avaliação por Pares</h4>
+              <div class="checkbox-group">
+                <div class="calc-option-box" style="margin-bottom: 0.5rem;">
+                  <label style="display: block; font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--text-primary);">
+                    Sua Faixa de Pontuação Relativa NQG (Voting History):
+                  </label>
+                  <div style="display: flex; flex-direction: column; gap: 0.35rem;">
+                    <label class="calc-radio-label"><input type="radio" name="nqg_rank" value="none" checked> Abaixo do Top 33,3% (ou primeira vez participando)</label>
+                    <label class="calc-radio-label"><input type="radio" name="nqg_rank" value="navigator"> Entre o Top 33,3% com maior poder de voto</label>
+                    <label class="calc-radio-label"><input type="radio" name="nqg_rank" value="pilot"> Entre o Top 16,7% com maior poder de voto</label>
+                  </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                  <div class="calc-option-box">
+                    <label for="peer_approvals_select" style="display: block; font-size: 0.82rem; font-weight: 700; margin-bottom: 0.4rem; color: var(--text-primary);">
+                      Aprovações de Pares:
+                    </label>
+                    <select id="peer_approvals_select" class="calc-select-input">
+                      <option value="0">0 aprovações</option>
+                      <option value="2">1 - 4 aprovações</option>
+                      <option value="5">5 ou mais aprovações (Suficiente)</option>
+                    </select>
+                  </div>
+
+                  <label class="custom-checkbox-label" style="align-items: center;">
+                    <input type="checkbox" id="chk_has_downvotes">
+                    <div class="checkbox-text">
+                      <h5 style="color: #ef4444;">Recebi 1+ Downvote</h5>
+                      <p>Impede a aprovação no ciclo</p>
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <div style="display: flex; justify-content: flex-end; margin-top: 1rem;">
+                <button type="button" id="resetCalcBtn" style="font-size: 0.82rem; color: var(--text-muted); text-decoration: underline;">
+                  Limpar e Reiniciar Calculadora
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Result Panel -->
+          <div class="calc-result-card">
+            <div class="result-badge-container">
+              <span id="calcCurrentTierPill" class="current-tier-pill tier-none">NÃO VERIFICADO</span>
+              <h3 id="calcCurrentTierTitle" class="current-tier-title">Iniciante</h3>
+              <p id="calcCurrentTierDesc" class="current-tier-desc">
+                Você ainda não concluiu os passos básicos de verificação na Stellar.
+              </p>
+            </div>
+
+            <div class="readiness-progress-wrapper">
+              <div class="readiness-label-row">
+                <span>Progresso até Pilot</span>
+                <span id="calcProgressPercentText" style="color: var(--stellar-cyan);">10%</span>
+              </div>
+              <div class="readiness-bar-bg">
+                <div id="calcProgressBarFill" class="readiness-bar-fill" style="width: 10%;"></div>
+              </div>
+            </div>
+
+            <div class="calc-action-checklist">
+              <h5>Próximos Passos Obrigatórios</h5>
+              <ul id="calcNextStepsList" class="calc-next-steps-list">
+                <!-- Injected via JavaScript -->
+              </ul>
+            </div>
+
+            <div style="margin-top: 1.5rem; text-align: center;">
+              <a href="https://communityfund.stellar.org/tiers" target="_blank" rel="noopener noreferrer" class="btn-primary-sm" style="width: 100%; justify-content: center; padding: 0.75rem;">
+                Reivindicar Role no SCF Dashboard
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: NQG GOVERNANCE & SIMULATOR -->
+    <section id="nqg" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Deep Dive Didático</div>
+          <h2 class="section-title">Como Funciona a Governança NQG?</h2>
+          <p class="section-desc">
+            O <strong>Neural Quorum Governance</strong> é o mecanismo algorítmico da Stellar que pondera a relevância e o peso do voto de cada participante baseado em 3 pilares de reputação.
+          </p>
+        </div>
+
+        <div class="nqg-visual-grid">
+          <div class="nqg-pillar-card">
+            <div class="pillar-icon" style="color: var(--stellar-purple);">💬</div>
+            <h3 class="pillar-title">Roles no Discord</h3>
+            <p class="pillar-desc">
+              Cargos conquistados no servidor oficial que demonstram histórico como desenvolvedor, criador de projeto (@SCF Project) ou embaixador oficial.
+            </p>
+          </div>
+
+          <div class="nqg-pillar-card">
+            <div class="pillar-icon" style="color: var(--stellar-cyan);">🗳️</div>
+            <h3 class="pillar-title">Histórico de Votação</h3>
+            <p class="pillar-desc">
+              Consistência e seriedade na participação das rodadas de Community Vote anteriores ao longo dos trimestres.
+            </p>
+          </div>
+
+          <div class="nqg-pillar-card">
+            <div class="pillar-icon" style="color: #10b981;">🤝</div>
+            <h3 class="pillar-title">Listas de Confiança</h3>
+            <p class="pillar-desc">
+              A quantidade e a qualidade dos membros experientes da rede que incluíram a sua carteira em suas listas de confiança (Trustlists/Web of Trust).
+            </p>
+          </div>
+        </div>
+
+        <!-- Scale Card -->
+        <div class="percentile-scale-card">
+          <div class="percentile-header">
+            <div>
+              <h3 style="font-size: 1.3rem;">Régua Percentual de Elegibilidade NQG</h3>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">Quanto mais alta sua pontuação relativa, mais alto seu tier de governança.</p>
+            </div>
+            <span style="font-size: 0.85rem; font-family: var(--font-mono); color: var(--stellar-cyan);">Acompanhe em SCF > Voting History</span>
+          </div>
+
+          <div class="scale-visual-track">
+            <div class="scale-segment pilot-zone" title="Top 16.7% - Pilot Tier">Top 16.7% (Pilot)</div>
+            <div class="scale-segment navigator-zone" title="16.7% a 33.3% - Navigator Tier">Top 33.3% (Navigator)</div>
+            <div class="scale-segment community-zone">Demais Participantes (Pathfinder / Verified)</div>
+          </div>
+
+          <div class="scale-legend">
+            <div class="legend-item">
+              <span class="legend-color" style="background: #fbbf24;"></span>
+              <span><strong>Pilot:</strong> Estar entre os ~16,7% com maior poder de voto</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-color" style="background: #2dd4bf;"></span>
+              <span><strong>Navigator:</strong> Estar entre os ~33,3% com maior poder de voto</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-color" style="background: rgba(255, 255, 255, 0.2);"></span>
+              <span><strong>Pathfinder / Verified:</strong> Sem exigência de corte percentual</span>
+            </div>
+          </div>
+
+          <!-- Interactive Mini-Simulator -->
+          <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-subtle);">
+            <h4 style="font-size: 1.05rem; margin-bottom: 1rem; color: var(--text-primary);">🎛️ Simulador Rápido de Fatores NQG</h4>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin-bottom: 1.25rem;">
+              <div>
+                <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Engajamento Discord (Roles):</label>
+                <input type="range" id="simDiscordRoles" min="0" max="1" step="0.1" value="0.7" style="width: 100%;">
+              </div>
+              <div>
+                <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Participação em Votações Anteriores:</label>
+                <input type="range" id="simVotingHistory" min="0" max="1" step="0.1" value="0.8" style="width: 100%;">
+              </div>
+              <div>
+                <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Inclusão em Listas de Confiança:</label>
+                <input type="range" id="simTrustlists" min="0" max="1" step="0.1" value="0.6" style="width: 100%;">
+              </div>
+            </div>
+
+            <div class="sim-result-banner">
+              <div>
+                <span style="font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase;">Estimativa NQG:</span>
+                <div id="simScoreOutput" style="font-size: 1.3rem; font-weight: 800; color: var(--stellar-cyan);">75 pts</div>
+              </div>
+              <div>
+                <span style="font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase;">Posição Projetada:</span>
+                <div id="simPercentileOutput" style="font-size: 1.1rem; font-weight: 700;">Top ~28.8% do ecossistema</div>
+              </div>
+              <div id="simTierOutputBadge" class="current-tier-pill tier-navigator">
+                🥇 Elegível para NAVIGATOR (Top 33.3%)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: QUESTS & BADGES CATALOG -->
+    <section id="badges" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Caminho de Expertise</div>
+          <h2 class="section-title">Catálogo de Badges & Quests Aceitas</h2>
+          <p class="section-desc">
+            Se você não possui um cargo especial no Discord, basta adquirir a quantidade mínima de badges em qualquer uma das iniciativas abaixo associadas à sua carteira pública.
+          </p>
+        </div>
+
+        <div class="badges-catalog-grid">
+          <div class="badge-item-card">
+            <div class="badge-icon">⚡</div>
+            <div class="badge-item-info">
+              <h5>Soroban Quest</h5>
+              <span class="badge-req-tag">Mínimo: 2 badges</span>
+            </div>
+          </div>
+
+          <div class="badge-item-card">
+            <div class="badge-icon">🏰</div>
+            <div class="badge-item-info">
+              <h5>RPCiege</h5>
+              <span class="badge-req-tag">Mínimo: 15 badges</span>
+            </div>
+          </div>
+
+          <div class="badge-item-card">
+            <div class="badge-icon">🚀</div>
+            <div class="badge-item-info">
+              <h5>Stellar Quest Level 1</h5>
+              <span class="badge-req-tag">Mínimo: 4 badges</span>
+            </div>
+          </div>
+
+          <div class="badge-item-card">
+            <div class="badge-icon">🌌</div>
+            <div class="badge-item-info">
+              <h5>Stellar Quest Level 2</h5>
+              <span class="badge-req-tag">Mínimo: 3 badges</span>
+            </div>
+          </div>
+
+          <div class="badge-item-card">
+            <div class="badge-icon">🪐</div>
+            <div class="badge-item-info">
+              <h5>Stellar Quest Level 3</h5>
+              <span class="badge-req-tag">Mínimo: 2 badges</span>
+            </div>
+          </div>
+
+          <div class="badge-item-card">
+            <div class="badge-icon">📡</div>
+            <div class="badge-item-info">
+              <h5>Stellar Quest Live (1-5)</h5>
+              <span class="badge-req-tag">Mínimo: 2 badges</span>
+            </div>
+          </div>
+
+          <div class="badge-item-card">
+            <div class="badge-icon">🗺️</div>
+            <div class="badge-item-info">
+              <h5>SQ Side Quests</h5>
+              <span class="badge-req-tag">Mínimo: 2 badges</span>
+            </div>
+          </div>
+
+          <div class="badge-item-card">
+            <div class="badge-icon">🛡️</div>
+            <div class="badge-item-info">
+              <h5>FCA00C</h5>
+              <span class="badge-req-tag">Mínimo: 1 badge</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: FAQ INTERATIVO -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Tire Suas Dúvidas</div>
+          <h2 class="section-title">Perguntas Frequentes (FAQ)</h2>
+          <p class="section-desc">
+            Esclareça dúvidas comuns sobre o processo de nomeação, linked roles e regras de votação.
+          </p>
+        </div>
+
+        <div class="faq-search-wrapper">
+          <span class="faq-search-icon">🔍</span>
+          <input type="text" id="faqSearchInput" class="faq-search-input" placeholder="Buscar por palavra-chave (ex: downvote, carteira, janela, linked roles)...">
+        </div>
+
+        <div class="faq-accordion" id="faqAccordion">
+          
+          <div class="faq-item">
+            <button class="faq-question-btn" type="button">
+              <span>O que é uma Linked Role no Discord e como configurar?</span>
+              <span class="faq-toggle-icon">▼</span>
+            </button>
+            <div class="faq-answer">
+              As <em>Linked Roles</em> (Cargos Vinculados) do Discord permitem que o servidor verifique se você é o dono legítimo de contas externas (como GitHub, Twitter/X, Steam ou Reddit). Para configurar, clique na seta ao lado do nome do servidor "Stellar Developers" no topo esquerdo do Discord, selecione "Linked Roles" e escolha um dos provedores para autenticar com segurança.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn" type="button">
+              <span>O que acontece se eu receber 1 downvote na minha nomeação para Navigator ou Pilot?</span>
+              <span class="faq-toggle-icon">▼</span>
+            </button>
+            <div class="faq-answer">
+              A regra da Stellar é categórica: para aprovação em Navigator ou Pilot é necessário ter pelo menos 5 aprovações e <strong>ZERO downvotes</strong>. Caso receba um downvote, sua nomeação não será aprovada nessa janela. Você receberá feedback construtivo, poderá entender os motivos apontados pela comunidade e tentar uma nova auto-nomeação na janela seguinte.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn" type="button">
+              <span>Preciso ter todos os badges da lista para ser Pathfinder?</span>
+              <span class="faq-toggle-icon">▼</span>
+            </button>
+            <div class="faq-answer">
+              <strong>Não!</strong> Você só precisa cumprir <strong>UM dos requisitos</strong> listados. Por exemplo: se você possuir 2 badges de Soroban Quest na sua carteira, já está 100% elegível para o tier Pathfinder, mesmo que não tenha participado do RPCiege ou dos níveis antigos do Stellar Quest.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn" type="button">
+              <span>Qual é a diferença entre o poder de voto de um Pathfinder e de um Navigator?</span>
+              <span class="faq-toggle-icon">▼</span>
+            </button>
+            <div class="faq-answer">
+              Durante as rodadas do Community Vote no SCF, membros <strong>Pathfinders</strong> selecionam um delegado de confiança (um Navigator ou Pilot ativo) para votar por eles. Já os <strong>Navigators e Pilots</strong> votam diretamente nos projetos submetidos, decidindo a distribuição dos fundos da rodada.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn" type="button">
+              <span>Quando ocorrem as Janelas de Aprovação para Navigator e Pilot?</span>
+              <span class="faq-toggle-icon">▼</span>
+            </button>
+            <div class="faq-answer">
+              As janelas oficiais ocorrem <strong>duas vezes por trimestre</strong> (uma no início/meio do ciclo, antecedendo a abertura do Community Vote). Você pode submeter sua auto-nomeação no Discord a qualquer momento, mas a contagem formal dos 5 votos dos pares será apurada durante essas janelas anunciadas.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn" type="button">
+              <span>Qual carteira (wallet) devo utilizar para me autenticar no SCF Dashboard?</span>
+              <span class="faq-toggle-icon">▼</span>
+            </button>
+            <div class="faq-answer">
+              A extensão de navegador oficial e mais recomendada pelo ecossistema é a <strong>Freighter Wallet</strong> (criada pela SDF). Você também pode utilizar soluções compatíveis como <strong>Albedo</strong> ou <strong>xBull</strong>. Certifique-se de usar a mesma carteira na qual você acumula seus badges de quests ou projetos.
+            </div>
+          </div>
+
+        </div>
+
+        <div id="faqNoResults" style="display: none; text-align: center; color: var(--text-muted); padding: 2rem;">
+          Nenhuma dúvida encontrada para o termo pesquisado. Tente outra palavra-chave!
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: RECURSOS E LINKS OFICIAIS -->
+    <section class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Hub Oficial</div>
+          <h2 class="section-title">Links & Recursos Verificados</h2>
+          <p class="section-desc">
+            Acesse rapidamente os portais oficiais da Fundação de Desenvolvimento da Stellar (SDF) e da comunidade.
+          </p>
+        </div>
+
+        <div class="resources-grid">
+          <div class="resource-card">
+            <div class="resource-icon">🌐</div>
+            <h4>SCF Tiers Dashboard</h4>
+            <p>Formulário e painel oficial para vincular carteira e reivindicar seus níveis de governança.</p>
+            <a href="https://communityfund.stellar.org/tiers" target="_blank" rel="noopener noreferrer" class="resource-link-btn">
+              <span>Acessar /tiers</span>
+              <span>↗</span>
+            </a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-icon">💬</div>
+            <h4>Stellar Developers Discord</h4>
+            <p>Canal principal da comunidade técnica, anúncios de janelas de aprovação e verificação de linked roles.</p>
+            <a href="https://discord.com/invite/stellardev" target="_blank" rel="noopener noreferrer" class="resource-link-btn">
+              <span>Entrar no Discord</span>
+              <span>↗</span>
+            </a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-icon">🗳️</div>
+            <h4>Stellar Community Fund</h4>
+            <p>Portal onde ocorrem as rodadas de votação comunitária e submissão de propostas de financiamento.</p>
+            <a href="https://communityfund.stellar.org" target="_blank" rel="noopener noreferrer" class="resource-link-btn">
+              <span>Ver Projetos SCF</span>
+              <span>↗</span>
+            </a>
+          </div>
+
+          <div class="resource-card">
+            <div class="resource-icon">🧩</div>
+            <h4>Soroban Smart Contracts</h4>
+            <p>Documentação para desenvolvedores e trilhas de aprendizado para conquistar badges na rede.</p>
+            <a href="https://soroban.stellar.org" target="_blank" rel="noopener noreferrer" class="resource-link-btn">
+              <span>Docs do Soroban</span>
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="nav-brand" style="margin-bottom: 0.5rem;">
+            <div class="stellar-logo-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+              </svg>
+            </div>
+            <span class="brand-name">STELLAR ROLES GUIDE</span>
+          </div>
+          <p>
+            Guia educacional desenvolvido para instruir membros e desenvolvedores a conquistarem reconhecimento e exercerem governança no ecossistema Stellar Blockchain.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h5>Navegação Rápida</h5>
+          <ul>
+            <li><a href="#tiers">As 4 Roles da Stellar</a></li>
+            <li><a href="#passo-a-passo">Passo a Passo (1 a 8)</a></li>
+            <li><a href="#calculadora">Calculadora de Elegibilidade</a></li>
+            <li><a href="#nqg">Governança Neural (NQG)</a></li>
+            <li><a href="#badges">Badges & Quests</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h5>Ecossistema Oficial</h5>
+          <ul>
+            <li><a href="https://stellar.org" target="_blank" rel="noopener noreferrer">Stellar.org</a></li>
+            <li><a href="https://communityfund.stellar.org" target="_blank" rel="noopener noreferrer">Stellar Community Fund</a></li>
+            <li><a href="https://discord.com/invite/stellardev" target="_blank" rel="noopener noreferrer">Stellar Dev Discord</a></li>
+            <li><a href="https://soroban.stellar.org" target="_blank" rel="noopener noreferrer">Soroban Docs</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>Stellar Community Fund Governance Roles Guide • Desenvolvido com foco didático, design clean e alta eficiência.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./js/app.js"></script>
+</body>
+</html>
